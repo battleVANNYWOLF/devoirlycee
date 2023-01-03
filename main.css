@@ -1,0 +1,84 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    text-align: center;
+    background-color: transparent;
+}
+.container{
+    font-family: 'Courier New', Courier, monospace;
+    size: 12px;
+    background-color: rgb(9, 196, 196);
+    height: 100px;
+    width: 100%;
+
+}
+nav{
+    text-align: center;
+    background: rgb(9, 196, 196);
+    height: 100%;
+    width: 100%;
+}
+.navbar-container{
+    display: flex;
+    background: rgb(9, 196, 196);
+    
+}
+.navbar-container a{
+    justify-content: space-around;
+}
+.nav a{
+    text-decoration: none;
+    height: 55px;
+    width: 55px;
+    background: transparent;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+.container_form{
+    size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 200px;
+    width: 400px;
+    background-color: transparent;
+    text-align: center;
+    margin-left: 35%;
+    align-items: center;
+
+    
+}
+form{
+    align-items: center;
+    size: 12px;
+    font-weight: bold;
+    text-decoration-color: #fff;
+    border: 2px solid #181a18;
+    color: #2b2e2c;
+    border-radius: 1%;
+}
+.btn_input
+{
+    font-weight: bold;
+    text-decoration-color: #fff;
+    border: 2px solid #181a18;
+    color: #2b2e2c;
+    border-radius: 10%;
+    background-color: green;
+    height: 30px;
+    width: 120px;
+}
+.btn_retour
+{
+    font-weight: bold;
+    text-decoration-color: #fff;
+    border: 2px solid hsl(202, 88%, 50%);
+    color: #1616dd;
+    border-radius: 10%;
+    background-color: hsl(202, 88%, 50%);
+    height: 40px;
+    width: 130px; 
+}

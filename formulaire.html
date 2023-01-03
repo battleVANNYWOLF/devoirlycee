@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <header>
+     <link rel="stylesheet" href="main.css"/>  
+    <title>biodiversite</title>
+</header>
+<body>
+    <div class="container">
+        <div class="titre">
+            <h1>Page Formulaire </h1>
+        </div>
+        <nav class="navbar_container">
+        <p><a href="tableau.html">Les Tableaux</a></p>
+        <p><a href="media.html">Les Medias</a></p>
+        </nav>
+    </div><br><br>
+    <div class="container_form">
+
+    
+    <form class="form_eleve">
+        <h1><i><em>Formulaire des eleves</em></i></h1><br>
+        <label>Nom</label><br>
+        <input type="text" name="nom"><br/>
+        <label>Prenom</label><br>
+        <input type="text" name="prenom">
+        <P>Veuillez indiquer la tranche d'âge dans laquelle vous vous
+            situez :</P>
+<br/><input type="radio" name="age" value="moins15" id="moins15"
+/> <label for="moins15">Moins de 15 ans</label><br />
+<input type="radio" name="age" value="medium15-25"
+id="medium15-25" /> <label for="medium15-25">15-25 ans</label><br />
+<input type="radio" name="age" value="medium25-40"
+id="medium25-40" /> <label for="medium25-40">25-40 ans</label><br />
+<input type="radio" name="age" value="plus40" id="plus40"/>
+<label for="plus40">Encore plus vieux que ça ?!</label><br />
+
+Sexe:<br/>
+<input type="radio" name="age" value="moins15" id="moins15"
+/> <label for="moins15">Masculin</label><br />
+<input type="radio" name="age" value="medium15-25"
+id="medium15-25" /> <label for="medium15-25">Feminin</label><br />
+
+<label for="matiere">Matiere prefere</label><br/>
+<select name="matiere" id="matiere">
+<optgroup label="Litteraire">
+<option value="france">Francais</option>
+<option value="espagne">Espagnol</option>
+<option value="italie">Anglais</option>
+<option value="italie">Allemand</option>
+<option value="royaume-uni">histoire</option>
+<option value="italie">Geographie</option>
+<option value="italie">ECM</option>
+</optgroup>
+<optgroup label="scientifique">
+<option value="canada">Mathematique</option>
+<option value="etats-unis">Informatique</option>
+<option value="italie">SVT</option>
+<option value="italie">PCT</option>
+</optgroup>
+<optgroup label="complementaire">
+<option value="chine">EPS</option>
+<option value="japon">TM</option>
+</optgroup>
+</optgroup>
+</select><p>
+   
+
+<input class="btn_input" type="submit" name="submit" value="Envoyer"/>
+
+    </form>
+    <br>
+    <p><a class="btn_retour" href="index.html">Retour a l'ACCEUIL</a></p>
+</div>
+</body>
+</html>
